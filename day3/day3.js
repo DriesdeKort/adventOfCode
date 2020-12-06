@@ -19,7 +19,6 @@ fs.readFile('./day3/input.txt', function (err, data) {
 function puzzle1(data, xAdd, yAdd) {
     var x = 0;
     var y = 0;
-    console.log(data.length);
     var treesEncounterd = 0;
     while (y < data.length) {
         // console.log("x: " + x%(data[0].length-1), "y: " + y,data[y])
