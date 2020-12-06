@@ -1,5 +1,5 @@
 const fs = require('fs'); 
-let numbers;
+
 
 fs.readFile('./day2/input.txt', function(err: Error, data:string) {
     if(err) throw err;

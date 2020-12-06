@@ -1,6 +1,5 @@
 "use strict";
 var fs = require('fs');
-var numbers;
 fs.readFile('./day2/input.txt', function (err, data) {
     if (err)
         throw err;
